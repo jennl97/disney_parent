@@ -1,14 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../images/logo.png";
 
 function Links () {
     return(
         <div>
-            
-             <Link className="nav-links" to="/">Parent Login</Link>
-             <Link className="nav-links" to="/request">Request Form</Link>
-             <Link className="nav-links" to="/messageboard">Message Board</Link>
-            
+             <nav>
+          <div className='nav-links'>
+            <img src={logo} />
+            <Link className="nav-links links" to="/">Home</Link>
+            <Link className="nav-links links" to="/request">Request Form</Link>
+            <Link className="nav-links links" to="/messageboard">Message Board</Link>
+          </div>
+        </nav>
         </div>
     )    
 }
