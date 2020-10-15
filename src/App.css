@@ -1,6 +1,5 @@
-@font-face{
-  font-family: "Waltograph";
-  src: url("./fonts/waltograph42.otf")
+h1,h2,h3,h4,h5,h6, p{
+  color: #253b56;
 }
 
 .App{
@@ -45,7 +44,21 @@ nav{
 .nav-links {
   display: inline-flex;
   padding-right: 15px;
+  text-align: center;
  
+}
+
+.links{
+  padding-top: 15px;
+  color: #253b56;
+  text-decoration: none;
+}
+.nav-links img{
+  padding-right: 30px;
+}
+
+.body{
+  text-align: center;
 }
 
 .error {
